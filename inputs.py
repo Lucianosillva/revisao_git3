@@ -1,7 +1,7 @@
 # sempre que for receber dados númericos tem que colocar int ou float dentro do input: (número = int(input('Digite um número: )))
 
 
-# exercícios
+
 
 # Entrada de dados
 nome2 = input('Digite seu nome e sobrenome:')
@@ -12,7 +12,7 @@ email2 = email2.lower()
 
 # 1) descubra o servidor do e-mail
 pos = email2.find('@')
-print(f'Nome do servidor: {email2[pos:]}')
+print(f'Nome do servidor: {email2[pos:].replace('@', '')}')
 
 # 2) pegar primeiro nome do usuário (tipo olá (nome))
 pos2 = nome2.find(' ')
@@ -31,6 +31,8 @@ print(f'Enviamos um link de confirmação para o e-mail: {primeira_letra}***{ema
 #email3 = list(email2)
 #pos3 = email3.find(email2[0])
 #print(pos3)
+
+print('alterando este código...')
 
 
 
