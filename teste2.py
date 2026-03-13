@@ -1,1 +1,1 @@
-print('outro testando...')
+print('outro testando.')
